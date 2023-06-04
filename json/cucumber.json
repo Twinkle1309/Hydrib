@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5185115600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "NopCommerce Valid Registration Test",
+        "description": "",
+        "id": "nopcommerce-registration;nopcommerce-valid-registration-test",
+        "after": [
+          {
+            "result": {
+              "duration": 367223300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1132523100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Click on register link",
+            "match": {
+              "location": "Register.user_Click_on_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67021700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on register page and verify register page title",
+            "match": {
+              "location": "Register.user_on_register_page_and_verify_register_page_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1254782900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter registration details",
+            "match": {
+              "location": "Register.user_enter_and_and_and_and_and()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "NopCommerce Registration",
+    "description": "",
+    "id": "nopcommerce-registration",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Register.feature"
+  }
+]
